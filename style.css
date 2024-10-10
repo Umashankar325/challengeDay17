@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+html,body{
+  width: 98%;
+  height: 100%;
+  margin: auto;
+}
+nav{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+nav .btncontainer{
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+nav button{
+  height: 30px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+
+}
+nav button:first-child{
+  background-color: white;
+  color: black;
+}
+.pag1{
+  /* background-color: red; */
+
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 90%;
+  /* background-color: yellow; */
+}
+.pag1 .container{
+  width: 90%;
+  height: 100%;
+    /* background: url(https://images.pexels.com/photos/10222173/pexels-photo-10222173.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    background: url(https://images.pexels.com/photos/13334827/pexels-photo-13334827.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0px auto ;
+  border-radius: 10px;
+}
+.pag1 .container .contant{
+  color: white;
+  margin: 20px;
+  padding-top: 400px;
+}
+.pag1 .container .contant h1{
+  width: 900px;
+  font-size: 47px;
+}
+.pag1 .container .contant p{
+  width: 650px;
+}
+.pag2{
+  margin-top: 50px;
+  width: 100%;
+  height:1800px;
+  /* background-color: red; */
+  
+}
+.pag2>p{
+  display: inline-block;
+  margin: 20px 0px;
+  margin-left: 80px;
+  
+}
+.pag2 .cardcontainer{
+  width: 90%;
+  height: 95%;
+  margin:0px auto ;
+  border-radius: 10px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+.pag2 .cardcontainer .card{
+  height: 500px;
+  width: 400px;
+  /* background-color: red; */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.pag2 .cardcontainer .card>.img{
+  width: 400px;
+  height: 300px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.pag2 .cardcontainer .card h3{
+  margin:  10px 0px;
+}
+.pag2 .cardcontainer .card>p{
+  margin:10px 0px;
+}
+.pag2 .cardcontainer .card .profile{
+  display: flex;
+  align-items: center;
+}
+.pag2 .cardcontainer .card .profile .img{
+  display: flex;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+
+}
+.pag2 .cardcontainer .card .profile p{
+  margin-left: 10px;
+}
+.pag2 .cardcontainer .card1>.img{
+  background: url(https://images.unsplash.com/photo-1525130413817-d45c1d127c42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHklMjBwZXJzb258ZW58MHx8MHx8fDA%3D);
+}
+.pag2 .cardcontainer .card2>.img{
+  background: url(https://images.pexels.com/photos/17050933/pexels-photo-17050933/free-photo-of-photo-of-a-pensive-young-man-in-a-suit-holding-a-book.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.pag2 .cardcontainer .card3>.img{
+  background: url(https://images.pexels.com/photos/12663053/pexels-photo-12663053.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.pag2 .cardcontainer .card4>.img{
+  background: url(https://images.pexels.com/photos/9490229/pexels-photo-9490229.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: calc(60%);
+}
+.pag2 .cardcontainer .card5>.img{
+  /* background: url(https://images.pexels.com/photos/13334827/pexels-photo-13334827.jpeg?auto=compress&cs=tinysrgb&w=600); */
+  background: url(https://images.pexels.com/photos/10222173/pexels-photo-10222173.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.pag2 .cardcontainer .card6>.img{
+  background: url(https://media.istockphoto.com/id/1353890525/photo/young-man-is-working-on-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=SWrhyuhLK9SomEF_tqLRTPInnWbjlwP3QEC0G7s2L38=);
+}
+.pag2 .cardcontainer .card7>.img{
+  background: url(https://media.istockphoto.com/id/1311107708/photo/focused-cute-stylish-african-american-female-student-with-afro-dreadlocks-studying-remotely.webp?a=1&b=1&s=612x612&w=0&k=20&c=rgsmluSFYbeLnzhA0JWzHTpmLmxgRPJwtyegPsrrEJo=);
+}
+.pag2 .cardcontainer .card8>.img{
+  background: url(https://images.unsplash.com/photo-1518644730709-0835105d9daa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWR5JTIwcGVyc29ufGVufDB8fDB8fHww);
+}
+.pag2 .cardcontainer .card9>.img{
+  background: url(https://plus.unsplash.com/premium_photo-1664372145439-db03f276dbd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3R1ZHklMjBwZXJzb258ZW58MHx8MHx8fDA%3D);
+}
+
+/*  */
+.pag2 button{
+  color: white;
+  background-color: black;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 15px;
+display: inline-block;
+left: 50%;
+position: absolute;
+border: 1px solid white;
+bottom: 20px;
+}
+.pag3{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+text-align: center;
+
+color: white;
+
+}
+.pag3 .top{
+  font-size: 40px;
+  padding:  30px  ;
+}
+.pag3 .para{
+  padding: 10px;
+}
+.pag3 .bottom{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* padding:0px 20px ; */
+}
+.pag3 .buttoncontainer{
+  /* background-color: yellow; */
+  height: 50px;
+  margin: 20px;
+}
+.pag3 button{
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
